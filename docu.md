@@ -42,8 +42,7 @@ Die beiden branches develop und release werden erzeugt mit
 `> git checkout -b develop` 
 `> git branch release`
 
-Der Unterschied ist, dass die bereits eingecheckten Dateien in den develop-branch übernommen wurden, der release-branch aber leer ist. 
-
+s
 
 
 
