@@ -20,14 +20,42 @@ Beispiel:
 
 `> git config user.email es19m011@technikum-wien.at`
 
+Zunächst werden die gewünschten Dateien zum Index hinzugefügt mit 
+
+`> git add <filename>` 
+
+Diese Dateien werden jetzt von git getracked, d.h. es wird festgestellt, wenn sich die Datei ändert. 
+
+Mit einem commit kann der momentane Zustand des Index ins git-repo gespeichert werden. 
+
+`> git commit -m "commit-Nachricht"`
 
 Die Erzeugung eines neuen `branches` erfolgt mit dem Befehl
 
-> `git branch -b`
+`> git branch -b`
 
-Die drei Branches master, develop und release werden also erzeugt mit 
- 
-> `git branch -b`
+Nach dem ersten `commit` wird automatisch der `master`-branch erzeugt. 
+Weitere branches erzeugt man entweder mit `git branch <branch-name>` oder mit `git checkout -b <branch-name>`. 
+
+Die beiden branches develop und release werden erzeugt mit 
+
+`> git checkout -b develop` 
+`> git branch release`
+
+Der Unterschied ist, dass die bereits eingecheckten Dateien in den develop-branch übernommen wurden, der release-branch aber leer ist. 
+
+
+
+
+`> git branch release`
+`> git branch release`
+`> git branch release`
+`> git branch release`
+`> git branch release`
+`> git branch release`
+`> git branch release`
+`> git branch release`
+
 
 
 Zunächst wird jedoch die Datei im git repo zum Index hinzugefügt mit 
