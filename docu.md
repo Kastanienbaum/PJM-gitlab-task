@@ -62,11 +62,17 @@ Das auf Github erzeugte Projekt kann nun als `remote` zum lokalen `git`-Verzeich
 Als nächstes werden alle branches auf den git-Server geladen mit 
 `git push origin --all`
 
+`merge-request` wird auf Github `pull-request` genannt, die beiden Begriffe bezeichnen aber dasselbe. Dabei wird eine "Anfrage" gemacht, einen branch in einen anderen zu `mergen`, typischerweise einen develop-Branch in den master-Branch. 
+Mit dem `merge-request` oder `pull-request` wird die Möglichkeit zu einem Code Review gegeben. Wenn das Code Review erfolgreich ist, kann "gemerged" werden, d.h. der eine Branch kann mit dem anderen zusammengeführt werden. 
+
+
 `git`
 `git`
 `git`
 
 ## Möglichkeiten von GitLab hinsichtlich Projektmanagement 
 
-- Auf Gitlab können verschiedene Rollen vergeben werden, und damit einhergehen Zugriffsrechte. 
+- Auf Gitlab können verschiedene Rollen vergeben werden, und damit einhergehende Zugriffsrechte (z.B. Owner, Developer, Maintainer, ...). Somit können Rollen aus dem Projekt einigermaßen zugeordnet werden (z.B. Projektleiter = Owner). 
 - Mehrere Personen können gleichzeitig verteilt an Dateien im gleichen Verzeichnis arbeiten, oder sogar an der gleichen Datei. 
+- Es wird automatisch eine Dokumentation darüber erstellt, wie sich das Projekt entwickelt 
+- Mithilfe von `merge-requests` kann ein Beitrag zur Qualitätssicherung geleistet werden 
