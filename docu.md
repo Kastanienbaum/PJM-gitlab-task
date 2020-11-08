@@ -23,16 +23,26 @@ Beispiel:
 
 Die Erzeugung eines neuen `branches` erfolgt mit dem Befehl
 
-> `git branch -b`
+> `git checkout -b <branchname>`
 
-Die drei Branches master, develop und release werden also erzeugt mit 
+Alternativ dazu kann ein branch auch erzeugt werden mit dem Befehl 
  
-> `git branch -b`
+> `git branch <branchname>`
 
 
 Zunächst wird jedoch die Datei im git repo zum Index hinzugefügt mit 
 
 `git add <filename>`
+
+Nach dem Abändern des git-hooks `commit-msg` kann mit 
+
+`git commit -m "<message text>"` 
+
+der derzeitige Arbeitsstand im Index gespeichert werden. 
+
+Nach mehreren commits auf dem branch `develop` wird ein weiterer branch `feature` erzeugt mit 
+
+`git checkout -b feature` 
 
 
 
