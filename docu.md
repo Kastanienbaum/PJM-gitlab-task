@@ -53,5 +53,20 @@ Auf diesem branch werden nun mehrere commits erzeugt.
 
 Leider hatte ich keinen Zugriff auf das FH-Gitlab. Daher habe ich Github genutzt und die Aufgabenstellung dort ausgeführt. 
 
-Zunächst wird auf Github ein neues Projekt erstellt, dessen Namen ident ist mit dem Namen des lokalen repository. 
+Zunächst wird auf Github ein neues Projekt erstellt, dessen Namen ident ist mit dem Namen des lokalen repository. Das repository wird ohne README oder sonstigen Dateien erstellt, da diese später alle vom lokalen repo gepusht werden. 
 
+Das auf Github erzeugte Projekt kann nun als `remote` zum lokalen `git`-Verzeichnis hinzugefügt werden mit 
+
+`git remote add  origin <URL/to/repository.git>`
+
+Als nächstes werden alle branches auf den git-Server geladen mit 
+`git push origin --all`
+
+`git`
+`git`
+`git`
+
+## Möglichkeiten von GitLab hinsichtlich Projektmanagement 
+
+- Auf Gitlab können verschiedene Rollen vergeben werden, und damit einhergehen Zugriffsrechte. 
+- Mehrere Personen können gleichzeitig verteilt an Dateien im gleichen Verzeichnis arbeiten, oder sogar an der gleichen Datei. 
