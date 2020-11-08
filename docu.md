@@ -1,5 +1,7 @@
 # PJM Dokumentation git-Übung   
 
+Dieses Dokument skizziert die Arbeitsschritte, die in der Aufgabe gemacht wurden. Außerdem werden kurz die verwendeten `git`-commands kurz umrissen. 
+
 ## Aufgabenstellung git basics 
 
 Die Erzeugung eines neuen Git Repository auf dem lokalen Rechner erfolgt mit
@@ -44,13 +46,12 @@ Nach mehreren commits auf dem branch `develop` wird ein weiterer branch `feature
 
 `git checkout -b feature` 
 
+Auf diesem branch werden nun mehrere commits erzeugt. 
 
 
 ## Aufgabenstellung GitLab 
 
+Leider hatte ich keinen Zugriff auf das FH-Gitlab. Daher habe ich Github genutzt und die Aufgabenstellung dort ausgeführt. 
 
-
-
-
-git Hook 
+Zunächst wird auf Github ein neues Projekt erstellt, dessen Namen ident ist mit dem Namen des lokalen repository. 
 
