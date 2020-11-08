@@ -66,9 +66,6 @@ Als nächstes werden alle branches auf den git-Server geladen mit
 Mit dem `merge-request` oder `pull-request` wird die Möglichkeit zu einem Code Review gegeben. Wenn das Code Review erfolgreich ist, kann "gemerged" werden, d.h. der eine Branch kann mit dem anderen zusammengeführt werden. 
 
 
-`git`
-`git`
-`git`
 
 ## Möglichkeiten von GitLab hinsichtlich Projektmanagement 
 
@@ -76,3 +73,4 @@ Mit dem `merge-request` oder `pull-request` wird die Möglichkeit zu einem Code 
 - Mehrere Personen können gleichzeitig verteilt an Dateien im gleichen Verzeichnis arbeiten, oder sogar an der gleichen Datei. 
 - Es wird automatisch eine Dokumentation darüber erstellt, wie sich das Projekt entwickelt 
 - Mithilfe von `merge-requests` kann ein Beitrag zur Qualitätssicherung geleistet werden 
+
